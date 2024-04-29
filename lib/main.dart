@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:practice_architecture/features/trivia_page/presentation/pages/home_page.dart';
+import 'package:practice_architecture/features/trivia_page/presentation/pages/trivia_page.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,6 +10,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return HomePage();
+    return TriviaPage();
   }
 }
